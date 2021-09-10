@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Pacifico&display=swap');
+
+:root{
+    --primary-color:#34D399;
+    --dark-primary-color: #059669;
+}
+body
+{
+    margin:0;
+    font-family: 'Architects Daughter', cursive;
+}
+
+nav
+{
+    background-color: var(--primary-color);
+    padding:1rem;
+    margin-bottom: 2rem;
+    color:white;
+    text-align: center;
+}
+
+footer{
+    
+    background-color: var(--primary-color);
+    padding:1rem;
+    color:white;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    text-align: center;
+}
+div
+{
+    /* To bring the input fields one below other */
+    display: flex;
+    flex-direction: column;
+}
+
+input 
+{
+    width:30rem;
+    border: 2px solid var(--primary-color);
+    border-radius:2rem;
+    margin:auto;
+    margin-top:1rem;
+    padding:0.3rem;
+    color:var(--dark-primary-color);
+    /* This , because on inout , whenever clicked , it covers the border with black */
+    outline:none;
+    font-family: 'Architects Daughter', cursive;
+}
+button
+{
+    width:20rem;
+    margin:auto;
+    font-family: 'Architects Daughter', cursive;
+    padding:0.3rem 2rem ;
+    border:2px solid var(--dark-primary-color);
+    border-radius:1rem 2rem;
+    color:var(--primary-color);
+    font-weight: bold;
+    background-color: transparent;
+    margin-top:1rem;
+    cursor:pointer
+}
+
+#output
+{
+    font-weight: bolder;
+    color:var(--dark-primary-color);
+    font-size: 1.5rem;
+    margin:auto;
+    margin-top:1rem;
+}
+a
+{
+text-decoration: none;
+}
